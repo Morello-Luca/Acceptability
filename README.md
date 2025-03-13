@@ -33,9 +33,9 @@ The project aims to optimize the weights assigned to different features (e.g., t
 
 The Bradley-Terry model is used to estimate the probability that one item is preferred over another in a pairwise comparison. The probability that item `i` is preferred over item `j` is given by:
 
-\[
+$\[
 P(i \text{ preferred over } j) = \frac{w_i}{w_i + w_j}
-\]
+\]$
 
 where \(w_i\) and \(w_j\) are the weights corresponding to items \(i\) and \(j\), respectively. Each respondent's ranking data provides multiple pairwise comparisons, and the overall likelihood of the observed data is computed as the product of these probabilities.
 
